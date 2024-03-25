@@ -6,7 +6,7 @@
     <parent>
         <groupId>cn.think.in.java</groupId>
         <artifactId>open-exp-code</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>0.0.1</version>
     </parent>
 
     <artifactId>open-exp-http-server</artifactId>
@@ -22,14 +22,14 @@
             <dependency>
                 <groupId>cn.think.in.java</groupId>
                 <artifactId>exp-one-bom</artifactId>
-                <version>1.0-SNAPSHOT</version>
+                <version>0.0.1</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
             <dependency>
                 <groupId>cn.think.in.java</groupId>
                 <artifactId>exp-third-bom</artifactId>
-                <version>1.0-SNAPSHOT</version>
+                <version>0.0.1</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>

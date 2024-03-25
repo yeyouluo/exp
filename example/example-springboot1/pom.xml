@@ -6,7 +6,7 @@
     <parent>
         <groupId>cn.think.in.java</groupId>
         <artifactId>example</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>0.0.1</version>
     </parent>
 
     <artifactId>example-springboot1</artifactId>
@@ -34,7 +34,7 @@
         <dependency>
             <groupId>cn.think.in.java</groupId>
             <artifactId>open-exp-adapter-springboot1-starter</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>0.0.1</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -43,7 +43,7 @@
         <dependency>
             <groupId>cn.think.in.java</groupId>
             <artifactId>example-extension-define</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>0.0.1</version>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>

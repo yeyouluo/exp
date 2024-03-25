@@ -6,7 +6,7 @@
     <parent>
         <groupId>cn.think.in.java</groupId>
         <artifactId>spring-adapter</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>0.0.1</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
@@ -23,7 +23,7 @@
             <dependency>
                 <groupId>cn.think.in.java</groupId>
                 <artifactId>exp-one-bom</artifactId>
-                <version>1.0-SNAPSHOT</version>
+                <version>0.0.1</version>
                 <scope>import</scope>
                 <type>pom</type>
             </dependency>
