@@ -72,7 +72,7 @@ public class ApacheHttpSimpleServer {
         handlerMapper.register(getAll, new GetAllHandler());
 
         Executors.newScheduledThreadPool(1).schedule(() -> {
-            String url = "http://localhost:" + Integer.parseInt(configSpi.getProperty("exp.plugin.manager.port", "8888"));
+            String url = "http://localhost:" + port;
             String uploadAndInstall2 = (url + uploadAndInstall);
             String install2 = url + install + "?path={path}";
             String uninstall2 = url + uninstall + "?pluginId={pluginId}";
